@@ -19,7 +19,6 @@ def gen_octave_freq(start_n_C):
   return list(map(to_freq, octave))
 
 all_keys = [40, *gen_octave_freq(16)]  # from C3
-all_keys += gen_octave_freq(28)  # from C4
 
 # all_keys = [to_freq(39), to_freq(33)]
 
